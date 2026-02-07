@@ -10,11 +10,18 @@ package sistematransporte;
  */
 public class SistemaTransporte {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static void procesarReserva(Reserva r) {
+        r.procesar();
+    } // PRUEBA
+
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+
+        Reserva taxi = new Taxi("San José", "Heredia", "06/02/2026", "8:00", "LIC123");
+        Reserva vehiculo = new Vehiculoprivado("Cartago", "SJ", "06/02/2026", "9:00", "ABC123");
+        Reserva bus = new Autobus("Alajuela", "SJ", "06/02/2026", "10:00", "R45", "TUASA");
+
+        procesarReserva(taxi);
+        procesarReserva(vehiculo);
+        procesarReserva(bus);
+    }// PRUEBA
 }
