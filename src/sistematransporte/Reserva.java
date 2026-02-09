@@ -68,7 +68,5 @@ public abstract class Reserva {
                 "\nDestino:" + destino + 
                 "\nFecha=" + fecha + 
                 "\nHora=" + hora;
-    }
-    
-    
+    }  
 }
