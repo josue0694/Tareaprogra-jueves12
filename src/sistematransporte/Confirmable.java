@@ -9,5 +9,5 @@ package sistematransporte;
  * @author Josue
  */
 public interface Confirmable {
-    public abstract void enviarConfirmacion();
+    public abstract String enviarConfirmacion();
 }
