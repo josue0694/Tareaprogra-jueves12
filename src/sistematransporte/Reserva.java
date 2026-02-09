@@ -65,19 +65,11 @@ public abstract class Reserva {
     @Override
     public String toString() {
 
-        return "Reserva{" + 
-                "Origen:" + origen + 
-                "\nDestino:" + destino + 
-                "\nFecha=" + fecha + 
-                "\nHora=" + hora;
+        return """
+               Reserva
+               Origen:""" + origen + 
+                "\nDestino: " + destino + 
+                "\nFecha: " + fecha + 
+                "\nHora: " + hora;
     }  
-
-        return "Reserva"
-                + "\nOrigen:" + origen
-                + "\nDestino:" + destino
-                + "\nFecha=" + fecha
-                + "\nHora=" + hora;
-    }
-
->>>>>>> 3612767070afe9092fccb6840b981775f2bf229c
 }
