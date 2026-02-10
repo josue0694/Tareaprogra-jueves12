@@ -17,12 +17,12 @@ public class SistemaTransporte {
 
     public static void main(String[] args) {
 
-        //Reserva taxi = new Taxi("SAN JOSE", "HEREDIA", "06/02/2026", "8:00", "TAX912");
+        Reserva taxi = new Taxi("SAN JOSE", "HEREDIA", "06/02/2026", "8:00", "TAX912");
         Reserva vehiculo = new Vehiculoprivado("CARTAGO", "SAN JOSE", "06/02/2026", "9:00", "AWX453");
-        //Reserva bus = new Autobus("ALAJUELA", "PUNTARENAS", "09/02/2026", "10:00", "R45", "PUERTO");
+        Reserva bus = new Autobus("ALAJUELA", "PUNTARENAS", "09/02/2026", "10:00", "R45", "PUERTO");
 
-        //procesarReserva(taxi);
+        procesarReserva(taxi);
         procesarReserva(vehiculo);
-        //procesarReserva(bus);
+        procesarReserva(bus);
     }
 }
